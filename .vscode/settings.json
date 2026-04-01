@@ -1,0 +1,19 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.openOcdConfigs": [
+    "interface/ftdi/esp_ftdi.cfg",
+    "target/esp32s3.cfg"
+  ],
+  "idf.portWin": "COM5",
+  "idf.currentSetup": "C:/Espressif/frameworks/esp-idf-v5.5.4/",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "C:\\Espressif\\tools\\esp-clang\\esp-19.1.2_20250312\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=c:\\Users\\S105\\Desktop\\zjl\\esp32-S3\\blink\\build"
+  ],
+  "idf.flashType": "UART"
+}
