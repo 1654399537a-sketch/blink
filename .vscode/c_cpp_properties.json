@@ -5,11 +5,23 @@
       "compilerPath": "C:\\Espressif\\tools\\xtensa-esp-elf\\esp-14.2.0_20260121\\xtensa-esp-elf\\bin\\xtensa-esp32-elf-gcc.exe",
       "compileCommands": "${config:idf.buildPath}/compile_commands.json",
       "includePath": [
-        "${workspaceFolder}/**"
+        "${workspaceFolder}/**",
+        "C:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_i2c/include",
+        "C:/Espressif/frameworks/esp-idf-v5.5.4/components/hal/include",
+        "C:/Espressif/frameworks/esp-idf-v5.5.4/components/freertos/esp_additions/include",
+        "C:/Espressif/frameworks/esp-idf-v5.5.4/components/log/include",
+        "C:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_common/include",
+        "C:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/include"
       ],
       "browse": {
         "path": [
-          "${workspaceFolder}"
+          "${workspaceFolder}",
+          "C:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_driver_i2c/include",
+          "C:/Espressif/frameworks/esp-idf-v5.5.4/components/hal/include",
+          "C:/Espressif/frameworks/esp-idf-v5.5.4/components/freertos/esp_additions/include",
+          "C:/Espressif/frameworks/esp-idf-v5.5.4/components/log/include",
+          "C:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_common/include",
+          "C:/Espressif/frameworks/esp-idf-v5.5.4/components/esp_hw_support/include"
         ],
         "limitSymbolsToIncludedHeaders": true
       }
